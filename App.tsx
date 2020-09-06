@@ -16,7 +16,7 @@ const App = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
-      <SafeAreaView>
+      <SafeAreaView style={style.root}>
         <Text style={style.text}>{number}</Text>
         <Button
           title="Generate"
@@ -30,8 +30,15 @@ const App = () => {
 };
 
 const style = StyleSheet.create({
+  root: {
+    height: '100%',
+    justifyContent: 'center',
+    padding: 20,
+  },
   text: {
     textAlign: 'center',
+    marginBottom: 100,
+    fontSize: 100,
   },
 });
 
