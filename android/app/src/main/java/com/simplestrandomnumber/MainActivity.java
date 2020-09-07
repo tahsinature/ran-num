@@ -1,4 +1,4 @@
-package com.randomnumber;
+package com.simplestrandomnumber;
 
 import com.facebook.react.ReactActivity;
 
